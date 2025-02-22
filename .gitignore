@@ -1,4 +1,4 @@
 venv
 schema.db
-**//__pycache__
-.pyteste_cache
+**/__pycache__
+.pytest_cache
