@@ -7,4 +7,3 @@ class EventosRepositoryInterface(ABC):
     
     @abstractmethod
     def select_event(self, event_name: str) -> Eventos: pass
-
