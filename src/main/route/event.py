@@ -2,11 +2,14 @@ from flask import Blueprint, jsonify, request
 
 event_route_bp = Blueprint("event_route", __name__)
 
+from src.validators.events_creator_validator import events_creator_validator
+
 from src.http_types.http_response import HttpsResponse
 from src.http_types.http_request import HttpsRequest
 
 @event_route_bp.route("/event", methods=["POST"])
 def create_new_event():
+    events_creator_validator(request)
     http_request = HttpsRequest(body=request.json)
     print(http_request.body)
 
