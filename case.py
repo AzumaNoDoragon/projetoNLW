@@ -1,5 +1,3 @@
-
-
 class MinhaClasse:
     def __enter__(self):
         print("Entrei!!!")
