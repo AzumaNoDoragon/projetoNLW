@@ -44,4 +44,4 @@ pytest
 ```
 
 ### Contribuindo
-Se você gostaria de contribuir para o desenvolvimento deste projeto, sinta-se à vontade para abrir issues ou pull requests.
+Se você gostaria de contribuir para o desenvolvimento deste projeto, sinta-se à vontade para abrir *`issues`* ou *`pull requests`*.

@@ -44,4 +44,4 @@ pytest
 ```
 
 ### Contributing
-If you would like to contribute to the development of this project, feel free to open *issues* or `pull requests`.
+If you would like to contribute to the development of this project, feel free to open *`issues`* or *`pull requests`*.
